@@ -1,0 +1,25 @@
+{
+  "name": "ui-challenge-2",
+  "version": "1.0.0",
+  "description": "For this assignment you will be building a series of custom form elements, some of which will require the use of a provided sprite-sheet.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuynh92/ui-challenge-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khuynh92/ui-challenge-2/issues"
+  },
+  "homepage": "https://github.com/khuynh92/ui-challenge-2#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "sprity": "^1.0.8"
+  }
+}

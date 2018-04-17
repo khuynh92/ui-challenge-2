@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   var $textInput = $('#text-input');
-  var $checkbox1 = $('#checkbox-1')
+  var $checkbox1 = $('#checkbox-1');
 
   $textInput.on('focusout', () => {
     $textInput.css({'border':'1px solid lightgray',});
