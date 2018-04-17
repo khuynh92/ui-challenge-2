@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UI-Challenge-2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="bold underline center">UI Challenge - Custom Form Elements</h1>
+  <p id="main-text" class="center">Note:
+    <strong>DO NOT</strong> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the
+    provided sprite sheet and a series of custom JS methods to complete this challenge.. don't worry if it's not perfect -
+    styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
+  <form>
+    <p class="bold">text input</p>
+    <label for="text-input"></label>
+    <input id="text-input" type="text" placeholder="placeholder text">
+    <br />
+    <p id="error" class="red hidden">Please enter a valid username</p>
+    <p class="bold">select box</p>
+  
+    <select name="select-box up-arrow" id="select-box">
+      <option class="lightgray" value="1">option 1</option>
+      <option class="darkgray" value="2">option 2</option>
+      <option class="lightgray" value="3">option 3</option>
+      <option class="darkgray" value="4">option 4</option>
+      <option class="lightgray" value="5">option 5</option>
+      </select>
+      <br />
+      <section id="checkbox-container">
+        <p>checkbox</p>
+        <label>
+          <input id="checkBox" type="checkbox">
+          <div id="checkbox-1" class="checked-box"></div>
+        </label>
+        <label>
+          <input id="checkBox" type="checkbox">
+          <div id="checkbox-2" class="checked-box"></div>
+        </label>
+      </section>
+      <section id="radio-container">
+        <p>Radio</p>
+        <label>
+          <input type="radio" name="radio-button">
+          <div id="radio-1" class="circle"></div>
+        </label>
+        <label>
+          <input type="radio" name="radio-button">
+          <div id="radio-2" class="circle"></div>
+          <label>
+      </section>
+      <section id="button-container">
+        <p>button</p>
+      <input class="button1" type="submit">
+      <input class="button2" type="submit">
+    </section>
+      </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+      </body>
+      
+      </html>
